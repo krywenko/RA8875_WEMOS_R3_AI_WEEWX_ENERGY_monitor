@@ -1350,11 +1350,11 @@ int t3b;
   tft.drawArc(x , y , radius, radius, d2, 360, tft.Color565(0, 255, 241));
 
   //tft.fillRect(180,180,10,10,RA8875_BLUE);
-  tft.setFontScale(1);tft.setTextColor(RA8875_CYAN, RA8875_BLACK);tft.setCursor(180, 150);tft.print(inp3);tft.setFontScale(0);tft.setCursor(180, 130);tft.print("DIVERTER ");tft.print(t3a);tft.print("% ");
+  tft.setFontScale(1);tft.setTextColor(RA8875_CYAN, RA8875_BLACK);tft.setCursor(180, 150);tft.print(inp3);tft.print("  ");tft.setFontScale(0);tft.setCursor(180, 130);tft.print("DIVERTER ");tft.print(t3a);tft.print("% ");
  // tft.fillRect(180,240,10,10,RA8875_RED);
-  tft.setFontScale(1);tft.setTextColor(RA8875_RED, RA8875_BLACK);tft.setCursor(180, 210);tft.print(inp2);tft.setFontScale(0);tft.setCursor(180, 190);tft.print("GRID ");tft.print(t2a);tft.print("% ");
+  tft.setFontScale(1);tft.setTextColor(RA8875_RED, RA8875_BLACK);tft.setCursor(180, 210);tft.print(inp2);tft.print("  ");tft.setFontScale(0);tft.setCursor(180, 190);tft.print("GRID ");tft.print(t2a);tft.print("% ");
  // tft.fillRect(180,280,10,10,RA8875_GREEN);
-    tft.setFontScale(1);tft.setTextColor(RA8875_YELLOW, RA8875_BLACK);tft.setCursor(180, 270);tft.print(inpS);tft.setFontScale(0);tft.setCursor(180, 250);tft.print("SOLAR ");tft.print(t1a);tft.print("% ");
+    tft.setFontScale(1);tft.setTextColor(RA8875_YELLOW, RA8875_BLACK);tft.setCursor(180, 270);tft.print(inpS);tft.print("  ");tft.setFontScale(0);tft.setCursor(180, 250);tft.print("SOLAR ");tft.print(t1a);tft.print("% ");
  tft.setFontScale(3);tft.setTextColor(LTBLUE, RA8875_BLACK);tft.setCursor(90, 350);tft.print(inp1+inp2);tft.print(" ");tft.setFontScale(1);tft.setCursor(90, 310);tft.print("TOTAL");
   
   t1b = ext1;
