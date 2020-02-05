@@ -13,6 +13,6 @@ RA8875  energy monitor that display information  from Mycroft ai, and weewx
 
  Mycroft AI TFT -- https://github.com/krywenko/TFT-ifterface-for-Mycroft-AI
  
- EVCAN mycroft AI skill  --  https://github.com/krywenko/weather-alert-mycroft-mqtt
+ EVCAN mycroft AI skill  --  https://github.com/krywenko/Evcan-alerts-skill
  
  
